@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "google_ctf_2022"
+version = "0.1.0"
+description = ""
+authors = ["Arjan de Pooter <mail@arjandepooter.nl>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pwntools = "^4.8.0"
+ipython = "^8.4.0"
+gmpy2 = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
